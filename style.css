@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+  font-size: 32px;
+}
+.parent {
+  background-color: blue;
+  padding: 1rem; /*1rem = ard 16px*/
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+}
+.parent div {
+  background-color: grey;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.parent > div:nth-child(even) {
+  background-color: red;
+}
