@@ -5,20 +5,216 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>Flexbox</title>
   </head>
   <body>
     <!--by default, there is margins in body-->
-    <div class="parent">
-      <div class="item-1">1</div>
-      <div class="item-2">2</div>
-      <div class="item-3">3</div>
-      <div class="item-4">4</div>
-      <div class="item-5">5</div>
-      <div class="item-6">6</div>
-      <div class="item-7">7</div>
-      <div class="item-8">8</div>
-      <div class="item-9">9</div>
+    <div class="wrapper">
+      <!--header-->
+      <section class="global">
+        <div class="top1">
+          <div class="top_container">
+            <p>welcome</p>
+            <div class="flex">
+              <div class="facebook"><i class="fa-brands fa-facebook"></i></div>
+              <div class="facebook">
+                <i class="fa-brands fa-square-twitter"></i>
+              </div>
+              <div class="facebook"><i class="fa-brands fa-tiktok"></i></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <header>
+        <div class="top2">
+          <div class="top_container">
+            <p>Mylog</p>
+            <div class="flex">
+              <ul class="flex">
+                <li>Home</li>
+                <li>Blog</li>
+                <li>connect</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--hero-->
+      <section class="middle">
+        <div class="flex">
+          <div class="back_color flex">
+            <div>
+              <p>Welcome To my Blog</p>
+              <hr />
+              <p>Your one stop away from destination</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--lasted post-->
+      <section class="lasted">
+        <div class="container">
+          <div class="title">Lasted Posts</div>
+          <hr />
+
+          <div class="post_container flex">
+            <div class="left">
+              <div class="article">
+                <article class="flex">
+                  <div class="art_img">
+                    <img src="./img/download.jpg" alt="background_img" />
+                  </div>
+                  <div class="art_content">
+                    <h3>How to travel with low budget</h3>
+                    <i class="fa-solid fa-plane"></i>
+                    <small>2.Apr.2023</small>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam, alias! Ut veniam, magnam quibusdam ad nisi neque
+                      consequuntur nesciunt dignissimos.
+                    </p>
+                    <button class="btn">Read</button>
+                  </div>
+                </article>
+                <article class="flex">
+                  <div class="art_img">
+                    <img src="./img/download.jpg" alt="background_img" />
+                  </div>
+                  <div class="art_content">
+                    <h3>How to travel with low budget</h3>
+                    <i class="fa-solid fa-plane"></i>
+                    <small>2.Apr.2023</small>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam, alias! Ut veniam, magnam quibusdam ad nisi neque
+                      consequuntur nesciunt dignissimos.
+                    </p>
+                    <button class="btn">Read</button>
+                  </div>
+                </article>
+                <article class="flex">
+                  <div class="art_img">
+                    <img src="./img/download.jpg" alt="background_img" />
+                  </div>
+                  <div class="art_content">
+                    <h3>How to travel with low budget</h3>
+                    <i class="fa-solid fa-plane"></i>
+                    <small>2.Apr.2023</small>
+                    <p>
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                      Ipsam, alias! Ut veniam, magnam quibusdam ad nisi neque
+                      consequuntur nesciunt dignissimos.
+                    </p>
+                    <button class="btn">Read</button>
+                  </div>
+                </article>
+              </div>
+            </div>
+            <aside class="right">
+              <div class="list1">
+                <h2>Read by Country</h2>
+                <ul>
+                  <li>Nepal</li>
+                  <li>Thailand</li>
+                  <li>Fiji</li>
+                </ul>
+              </div>
+              <div class="list2">
+                <h2>Read by year</h2>
+                <ul>
+                  <li>2020</li>
+                  <li>2021</li>
+                  <li>2022</li>
+                </ul>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!--recc-->
+      <section class="recc">
+        <div class="container">
+          <h2>Reccomandation</h2>
+          <hr />
+          <div class="card_list flex">
+            <div class="card">
+              <img width="100%" src="./img/download2.jpg" alt="" />
+              <div class="container">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum qui atque odio repellendus delectus voluptatibus.
+                </p>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+            <div class="card">
+              <img width="100%" src="./img/download2.jpg" alt="" />
+              <div class="container">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum qui atque odio repellendus delectus voluptatibus.
+                </p>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+            <div class="card">
+              <img width="100%" src="./img/download2.jpg" alt="" />
+              <div class="container">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum qui atque odio repellendus delectus voluptatibus.
+                </p>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+            <div class="card">
+              <img width="100%" src="./img/download2.jpg" alt="" />
+              <div class="container">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum qui atque odio repellendus delectus voluptatibus.
+                </p>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+            <div class="card">
+              <img width="100%" src="./img/download2.jpg" alt="" />
+              <div class="container">
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing.</h3>
+                <p>
+                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                  Voluptatum qui atque odio repellendus delectus voluptatibus.
+                </p>
+                <button class="btn">Explore</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--subcribe-->
+      <section class="container subs flex">
+        <h2>Subscribe to recieve many perks</h2>
+        <form action="">
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="submit" class="btn" />
+        </form>
+      </section>
+      <footer>
+        <div class="footer">&copy;It is made by me.</div>
+      </footer>
     </div>
+    <!--wrapper-->
   </body>
 </html>
